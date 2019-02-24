@@ -1,0 +1,22 @@
+#Ignore DS_Store
+.DS_Store
+
+#Ignore the scraped data dir
+/DataAcquisition/Data
+
+#ignore the scrape script
+/DataAcquisition/Scrape_XML*
+/DataAcquisition/.DS_Store
+/DataAcquisition/.ipynb_checkpoints*
+
+#Ignore all parquet and spark files
+/DataAnalysis/parquet*
+/DataAnalysis/spark-warehouse
+/DataAnalysis/.ipynb_checkpoints*
+/DataAnalysis/.DS_Store
+
+#Ignore model and spark files
+/RecommenderSystems/als_matrix*
+/RecommenderSystems/spark*
+/RecommenderSystems/.ipynb_checkpoints*
+/RecommenderSystems/.DS_Store
